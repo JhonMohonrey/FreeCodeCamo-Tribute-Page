@@ -1,0 +1,142 @@
+main {
+  width: 1000px;
+  margin: 0 auto;
+  background: #e3e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 2px 2px 10px black;
+          box-shadow: 2px 2px 10px black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main #tribute-info {
+  width: 90%;
+  font-family: roboto, arial;
+}
+
+main .record {
+  position: absolute;
+  top: 1150px;
+  margin-top: 50px;
+  border: 2px solid black;
+  width: 300px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  background: #eaeaea;
+  -webkit-transition: padding .15s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  transition: padding .15s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  transition: padding .15s ease-in-out, box-shadow .2s ease-in-out;
+  transition: padding .15s ease-in-out, box-shadow .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+}
+
+main .record:hover {
+  padding: 20px 60px;
+  -webkit-box-shadow: 5px 5px 20px black;
+          box-shadow: 5px 5px 20px black;
+  -webkit-transition: padding .15s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  transition: padding .15s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  transition: padding .15s ease-in-out, box-shadow .2s ease-in-out;
+  transition: padding .15s ease-in-out, box-shadow .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
+  cursor: pointer;
+}
+
+main .record h3 {
+  font-family: arial;
+  margin: 0;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+main .record #last {
+  border-bottom: none;
+}
+
+main .record div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 2px solid black;
+}
+
+main .record div p {
+  margin: 5px 0;
+  font-family: arial;
+  display: inline-block;
+  font-weight: bold;
+}
+
+main .record div span {
+  margin: 5px 0;
+  font-weight: bold;
+  font-family: arial;
+}
+
+#title {
+  font-family: arial;
+  font-size: 40px;
+}
+
+.about {
+  font-family: arial;
+  font-size: 30px;
+  margin: 0 0 30px 0;
+}
+
+#img-caption {
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.693);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.693);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#tribute-info {
+  font-family: arial;
+  font-size: 20px;
+}
+
+.link-p {
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 250px;
+}
+
+.link {
+  text-decoration: none;
+  color: #2b0f89;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
